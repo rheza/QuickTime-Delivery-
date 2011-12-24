@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>QuickTime Delivery</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	
+    
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <!-- Le jquery -->
+    <script src="js/jquery.min.js"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    
+     <!-- Slideshow -->
+		<style>
+		.fadein { position:relative; height:250px; width:500px; }
+		.fadein a {display:block;}
+		.fadein img { position:absolute; left:0; top:0; }
+		</style>
+	<script src="js/bootstrap-modal.js"></script>
+	<!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+   
+   <script>
+		$(function(){
+    	$('.fadein a:gt(0)').hide();
+    	setInterval(function(){
+     	 $('.fadein a:first-child').fadeOut()
+         .next('a').fadeIn()
+         .end().appendTo('.fadein');},
+      	3000);
+		});
+  </script>
+
+
+
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="index.html">QuickTime Delivery</a>
+          <ul class="nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a data-controls-modal="modal-from-dom" data-backdrop="true" data-keyboard="true">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <!--
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        <p><a class="btn primary large" href ="aboutus.html">Learn more &raquo;</a></p>
+        
+       
+      </div>
+	-->
+	<div class="row show-grid" title="One-third and two-thirds layout">
+
+    <div class="span-two-thirds">
+    	 
+	    <div class="fadein">
+    		<a href="selayang/"><img src="slideshow/slideshow1.jpg" /></a>
+ 			<a href="tamarind/"><img src="slideshow/slideshow2.jpg" /></a>
+ 			<a href="tamarind/"><img src="slideshow/slideshow3.jpg" /></a>
+		</div>
+		<br>
+    </div>
+  	</div><!-- /row --> 
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span-one-third">
+          <h2>Tamarind Springs Restaurant</h2>
+          <ul class="media-grid">
+  			<li>
+   				 <a href="tamarind/">
+      				<img class="thumbnail" src="images/restaurant1.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+         <!-- 
+         <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+         
+          -->
+           <p><a class="btn danger" href="tamarind/">Order From this restaurant &raquo;</a></p>
+        </div>
+        <div class="span-one-third">
+          <h2>Selayang Palace Restaurant</h2>
+          <ul class="media-grid">
+  			<li>
+   				 <a href="selayang/">
+      				<img class="thumbnail" src="images/restaurant2.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+                    <p><a class="btn danger" href="selayang/">Order From this restaurant &raquo;</a></p>
+       </div>
+        <div class="span-one-third">
+          <h2>Restoran Tak Fok Hong Kong Seafood</h2>
+          <ul class="media-grid">
+  			<li>
+   				 <a href="#">
+      				<img class="thumbnail" src="images/restaurant3.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+         <p><a class="btn danger" href="#">Order From this restaurant &raquo;</a></p>
+        </div>
+      </div>
+	<div class="row">
+        <div class="span-one-third">
+          <h2>Hj Sharin Low Seafood Restaurant</h2>
+          	<ul class="media-grid">
+  			<li>
+   				 <a href="#">
+      				<img class="thumbnail" src="images/restaurant4.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+         <p><a class="btn danger" href="#">Order From this restaurant &raquo;</a></p>
+        </div>
+        <div class="span-one-third">
+          <h2>Kopitiam Restaurant</h2>
+          <br><br>
+          <ul class="media-grid">
+  			<li>
+   				 <a href="#">
+      				<img class="thumbnail" src="images/restaurant5.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+          <p><a class="btn danger" href="#">Order From this restaurant &raquo;</a></p>
+       </div>
+        <div class="span-one-third">
+          <h2>Restoran Kari Kepala Ikan SG</h2>
+          <ul class="media-grid">
+  			<li>
+   				 <a href="#">
+      				<img class="thumbnail" src="images/restaurant6.jpg" alt="">
+    			</a>
+  			</li>
+			</ul>
+        <p><a class="btn danger" href="#">Order From this restaurant &raquo;</a></p>
+        </div>
+		
+		
+
+      </div>
+      
+
+      <footer>
+        <p>&copy; Thisco.de - 2011</p>
+		
+      </footer>
+
+    </div> <!-- /container -->
+
+<!-- Contact US Form -->
+          <div id="modal-from-dom" class="modal hide fade">
+            <div class="modal-header">
+              <a href="#" class="close">&times;</a>
+              <h3>Contact us</h3>
+            </div>
+            <div class="modal-body">
+         
+               <form>
+        <fieldset>
+          <div class="clearfix">
+            <label for="xlInput">Name</label>
+            <div class="input">
+              <input class="xlarge" id="xlInput" name="xlInput" size="30" type="text" />
+            </div>
+          </div><!-- /clearfix -->
+		  <div class="clearfix">
+            <label for="xlInput">Email</label>
+            <div class="input">
+              <input class="xlarge" id="xlInput" name="xlInput" size="30" type="text" />
+            </div>
+          </div><!-- /clearfix -->
+    
+          
+          <div class="clearfix">
+            <label for="textarea">Feedback</label>
+            <div class="input">
+              <textarea class="xlarge" id="textarea2" name="textarea2" rows="3"></textarea>
+              <span class="help-block">
+                
+              </span>
+            </div>
+          </div><!-- /clearfix -->
+         
+         
+          
+        </fieldset>
+          
+            </div>
+            
+            
+            
+            <div class="modal-footer">
+              <a href="#" class="btn primary">Send</a>
+              <a href="#" class="btn secondary">Cancel</a>
+            </div>
+          </div>
+
+  </body>
+</html>
